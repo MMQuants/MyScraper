@@ -1,4 +1,14 @@
 # MyScraper
-Scraping data for ongoing research
+Gathering data for ongoing research
 
-Trying to scrape data from booking.com to be used as a dataset for research in the hospitality industry
+Trying to find relevant data to be used as a dataset for research in the hospitality industry.
+
+To DOs:
+1) Find suitable data
+2) Obtain it
+3) Explore the data trough EDA
+4) Clean and prepare for modeling
+5) Find insights in the data
+6) Develop a suitable model
+7) Apply the model and generate predictions, forecasts and assumptions 
+8) Generate conclusions and recommendations
