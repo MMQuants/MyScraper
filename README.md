@@ -13,4 +13,4 @@ TODOs:
 7) Apply the model and generate predictions, forecasts and assumptions 
 8) Generate conclusions and recommendations
 
-It is not vise to use Google Colab because it is flagged and you will not get an output
+It is not wise to use Google Colab because it is flagged and you will not get an output
