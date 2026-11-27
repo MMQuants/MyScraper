@@ -9,7 +9,9 @@ import pandas as pd
 from playwright.sync_api import sync_playwright
 
 
-def _run_scraper(city="Paris", checkin="2026-12-15", checkout="2026-12-18",
+town ="Rome"
+
+def _run_scraper(city=town, checkin="2026-12-15", checkout="2026-12-18",
                  adults=2, currency="EUR", max_load_more=5,
                  out_csv="booking_research_data.csv"):
     # FIX: Jupyter on Windows uses a Selector event loop, which cannot start
@@ -141,7 +143,7 @@ def _run_scraper(city="Paris", checkin="2026-12-15", checkout="2026-12-18",
 # Option A: run from a terminal  ->  python scrape_booking.py
 # ---------------------------------------------------------------
 if __name__ == "__main__":
-    _run_scraper("Paris", "2026-12-15", "2026-12-18", 2)
+    _run_scraper(town, "2026-12-15", "2026-12-18", 2)
 
 # ---------------------------------------------------------------
 # Option B: run inside Jupyter (paste this in a notebook cell
